@@ -50,21 +50,22 @@ Use the modes to perform actions on your images. These modes require your action
 ---
 
 ### 5️⃣ Use AI Prediction 🤖
-If you have a trained YOLO model, you can annotate images as follows:
+If you have a trained YOLO model, folow the flow on the right, you can annotate images as follows:
 
 1. **Import Weights:** `best.pt`  
 2. **Click on Predict Image**  
 3. **Visualize Predictions:** Tick the checkboxes on the left
 <img width="1910" height="978" alt="image" src="https://github.com/user-attachments/assets/2ae11adb-991c-4f13-b774-c51b1284da9a" />
 
-4. **Transfer Predictions:** If correct, move predicted BBoxes to GT
+4. **Transfer Predictions:** If correct, move predicted BBoxes to GT one by or all by clicking on the button
+5. **Extra:** is trying to find the new annotation using IOU you can transfert all of the extra BBOX in the editing secttion. 
 
 ---
 
-### 6️⃣ Use Machine Vision Tools 🌿
+### 6️⃣ Use Machine Vision Tools 📷
 Currently supported tools for assisting annotation:
 
-- **Excessive Green Mask** 🍃 -> Other index will come later
+- **Excessive Green Mask** 🌿 -> Other index will come later
 - **Shape Detection** : ⚪Circle,🔺 Triangle,⬛ Rectangle,🔷 Polygon
 
 ---
@@ -72,6 +73,5 @@ Currently supported tools for assisting annotation:
 ### 7️⃣ To Come Next ⏳
 - Currently, the tool only supports **single-class annotation**.  
 - **Multi-class annotation** support is coming soon.
+- Next I will do segementation
 
-- Currently, the tool only supports **single-class annotation**.  
-- **Multi-class annotation** is coming soon.
