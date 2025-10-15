@@ -18,28 +18,28 @@ It provides an **interactive interface** to visualize datasets, annotate images 
 
 ---
 ## Usage 🖥
-
-### 1. Launch the UI annotation script
+### 1️⃣ Launch the UI annotation script 🖥
 Running the script should open the interface like this:
 
 <img width="1287" height="956" alt="UI Annotation Screenshot" src="https://github.com/user-attachments/assets/8b6a218d-8083-4167-ae22-3c4afd6b9b26" />
 
 ---
 
-### 2. Select Dataset
+### 2️⃣ Select Dataset 📂
 Select a dataset folder using the **"Select Parent Folder"** button (top LEFT).  
 - The dataset should be in **YOLO format** (images + labels folder).  
+<img width="1917" height="985" alt="image" src="https://github.com/user-attachments/assets/b2da451c-251b-4e7b-b275-e6c09217f5bf" />
 - If you only have images, create a **fake labels folder**.
 
 ---
 
-### 3. Navigate Images
+### 3️⃣ Navigate Images 🔍
 - Use the **slider** or **arrow buttons** on top to browse images.  
 - Toggle **visibility** and adjust **transparency** of GT, Pred, and Extra boxes.
 
 ---
 
-### 4. Annotation Modes
+### 4️⃣ Annotation Modes 🛠
 Use the modes to perform actions on your images. These modes require your action to take effect:
 
 1. **Draw** ✏️: Draw a new BBox  
@@ -49,24 +49,29 @@ Use the modes to perform actions on your images. These modes require your action
 
 ---
 
-### 5. Use AI Prediction
+### 5️⃣ Use AI Prediction 🤖
 If you have a trained YOLO model, you can annotate images as follows:
 
 1. **Import Weights:** `best.pt`  
 2. **Click on Predict Image**  
-3. **Visualize Predictions:** Tick the checkboxes on the left  
+3. **Visualize Predictions:** Tick the checkboxes on the left
+<img width="1910" height="978" alt="image" src="https://github.com/user-attachments/assets/2ae11adb-991c-4f13-b774-c51b1284da9a" />
+
 4. **Transfer Predictions:** If correct, move predicted BBoxes to GT
 
 ---
 
-### 6. Use Machine Vision Tools
+### 6️⃣ Use Machine Vision Tools 🌿
 Currently supported tools for assisting annotation:
 
-- **Excessive Green Detection** 🌿  
-- **Shape Detection:** Circle, Triangle, Rectangle, Polygon
+- **Excessive Green Mask** 🍃 -> Other index will come later
+- **Shape Detection** : ⚪Circle,🔺 Triangle,⬛ Rectangle,🔷 Polygon
 
 ---
 
-### 7. To Come Next ⏳
+### 7️⃣ To Come Next ⏳
+- Currently, the tool only supports **single-class annotation**.  
+- **Multi-class annotation** support is coming soon.
+
 - Currently, the tool only supports **single-class annotation**.  
 - **Multi-class annotation** is coming soon.
