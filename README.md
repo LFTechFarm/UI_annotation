@@ -1,7 +1,7 @@
 # UI_Annotation 🚀
 
 **UI_Annotation** is a Python-based graphical tool designed to simplify the annotation of AI datasets using **bounding boxes (BBoxes)**.  
-It provides an **interactive interface** to visualize datasets, annotate images efficiently, and leverage **machine vision** or **pretrained AI models** to assist with annotations.
+It provides an **interactive interface** to visualize datasets, annotate images efficiently, and leverage **machine vision** or **pretrained AI models** to assist with annotations. Feel free tp use it, modify it, contact me for upgrade. 
 
 ---
 
