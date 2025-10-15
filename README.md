@@ -63,6 +63,7 @@ If you have a trained YOLO model, folow the flow on the right, you can annotate 
 ---
 
 ### 6️⃣ Use Machine Vision Tools 📷
+This section (Right) aims to use machine vision tool to ease annotation, you need to adjust the parameters to performe corectly the annotation.
 Currently supported tools for assisting annotation:
 
 - **Excessive Green Mask** 🌿 -> Other index will come later
